@@ -2,7 +2,7 @@ import React from "react";
 // c94a5596
 import { useEffect } from "react";
 import './App.css';
-import searchIcon from './search.svg'
+import {BiSearchAlt2} from "react-icons/bi"
 const API_URL="http://www.omdbapi.com?apikey=c94a5596"
 
 const App=()=> {
@@ -24,9 +24,9 @@ const App=()=> {
               value="superman"
               onChange={()=>{}}
             />
-            <img
-            src={}
-            />
+            
+            <BiSearchAlt2 size={40}/>
+            
       </div>
     </div>
   );

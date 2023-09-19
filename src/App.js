@@ -13,7 +13,7 @@ const App=()=> {
      searchMovie();
   },[])
   return (
-    <div className="App">
+    <div>
       
     </div>
   );

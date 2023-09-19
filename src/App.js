@@ -25,8 +25,13 @@ const App=()=> {
               onChange={()=>{}}
             />
             
-            <BiSearchAlt2 size={40}/>
+            <BiSearchAlt2 size={40} onClick={()=>{
+
+            }}/>
             
+      </div>
+      <div className="container">
+
       </div>
     </div>
   );

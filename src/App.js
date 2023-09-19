@@ -15,9 +15,19 @@ const App=()=> {
      searchMovie();
   },[])
   return (
-    <div>
-      <h1>App</h1>
-      {searchIcon}
+    <div className="app">
+      <h1> MoviePalace</h1>
+
+      <div className="search">
+            <input 
+              placeholder="search for movies"
+              value="superman"
+              onChange={()=>{}}
+            />
+            <img
+            src={}
+            />
+      </div>
     </div>
   );
 }
